@@ -7,6 +7,10 @@ import { HeaderComponent } from './header/header.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { HomeComponent } from './home/home.component';
 import { LogoComponent } from './logo/logo.component';
+import { Link1Component } from './link1/link1.component';
+import { Link2Component } from './link2/link2.component';
+import { Link3Component } from './link3/link3.component';
+import { Link4Component } from './link4/link4.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +18,11 @@ import { LogoComponent } from './logo/logo.component';
     HeaderComponent,
     SidebarComponent,
     HomeComponent,
-    LogoComponent
+    LogoComponent,
+    Link1Component,
+    Link2Component,
+    Link3Component,
+    Link4Component
   ],
   imports: [
     BrowserModule,
