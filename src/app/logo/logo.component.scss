@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Chango&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap');
+
+.logo-container {
+    height:100%;
+    display: grid;
+    place-items: center;
+    width: 100px;
+}
+
+.logo-container > div {
+    text-transform: uppercase;
+    color: rgba(85, 85, 85, 0.808);
+}
+
+.logo-main {
+    font-family: 'Chango', cursive;
+    font-size: xx-large;
+}
+
+.logo-subtext {
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: x-small;
+    transform: translateY(-5px);
+}
